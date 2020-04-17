@@ -20,7 +20,7 @@
 
     [![When We Build](http://img.youtube.com/vi/i2FPU7bKD9k/0.jpg)](https://www.youtube.com/watch?v=i2FPU7bKD9k "When We Build")
 
-- [ ] What Nobody Tells Beginners — Ira Glass on Storytelling
+- [ ] [**What Nobody Tells Beginners — Ira Glass on Storytelling**](http://numerocinqmagazine.com/2011/05/13/what-nobody-tells-beginners-ira-glass-on-storytelling/)
 
     > “Nobody tells this to people who are beginners, I wish someone told me. All of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it’s just not that good…”
 
