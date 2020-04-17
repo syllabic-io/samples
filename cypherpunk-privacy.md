@@ -17,7 +17,7 @@ Are you intrigued? The following 16 links compose an eclectic reading list, mean
 
     > “Privacy is the power to selectively reveal oneself to the world”
     
-        Privacy hinges on autonomy and consent; it combines both safety and freedom. Hughes and his contemporaries defined the cypherpunk perspective that eventually gave rise to cryptocurrency.
+    Privacy hinges on autonomy and consent; it combines both safety and freedom. Hughes and his contemporaries defined the cypherpunk perspective that eventually gave rise to cryptocurrency.
         
 - [ ] 📝 [**“Why I Wrote PGP**](https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html) – Philip Zimmermann (1991)
 
@@ -37,7 +37,7 @@ Are you intrigued? The following 16 links compose an eclectic reading list, mean
 - [ ] 📝 [**Privacy is power**](https://aeon.co/essays/privacy-matters-because-it-empowers-us-all) – Carissa Véliz (2019)
 
 
-If you’re looking for how-to guides, check out:
+### If you’re looking for how-to guides, check out:
 
 - [ ] 🌐 [**EFF’s Surveillance Self-Defense**](https://ssd.eff.org/en)
 - [ ] 🌐 [**Zcash Community Forum - Articles about Privacy and Security Recommendations**](https://forum.zcashcommunity.com/t/articles-about-privacy-and-security/33668)

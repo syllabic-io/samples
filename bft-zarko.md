@@ -26,7 +26,7 @@
 
     This is at the base of BFT-smart library.
 
-    - [ ] [State Machine Replication for the Masses with BFT-SMART](http://www.di.fc.ul.pt/~bessani/publications/dsn14-bftsmart.pdf) (Optional)
+    - [ ] [**State Machine Replication for the Masses with BFT-SMART**](http://www.di.fc.ul.pt/~bessani/publications/dsn14-bftsmart.pdf) (Optional)
   
         This is the BFT Smart paper itself.
 
