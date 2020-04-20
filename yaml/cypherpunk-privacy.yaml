@@ -1,0 +1,77 @@
+title: A Cypherpunk Privacy Reading List
+curator: ZCash Foundation
+source: https://www.zfnd.org/blog/cypherpunk-privacy-reading-list/
+
+description: >
+    Privacy matters, as a value and a goal. It matters deeply — even existentially. People often say that privacy is a human right. But why? What makes it so important?
+    
+    Protecting your privacy can be as simple as closing the door. No one campaigns against the existence of solid wood. But usually it’s not quite that simple, because privacy is more than a practical concern. We find ourselves grappling with questions as contentious as they are ancient: Who has power? Who ought to? How is that power constrained in actuality?
+    
+    The philosophical and political dimensions of privacy end up affecting the tools that you and I are able to use — often, the tools that we have access to at all.
+    
+    Are you intrigued? The following 16 links compose an eclectic reading list, meant as a convenient starting point for anyone who wants to explore the cypherpunk approach to privacy.
+    
+items:
+    - article
+        title: The Crypto Anarchist Manifesto – Timothy C. May (1988)
+        link: https://activism.net/cypherpunk/crypto-anarchy.html
+        description: >
+            > “Privacy is the power to selectively reveal oneself to the world”
+            
+            Privacy hinges on autonomy and consent; it combines both safety and freedom. Hughes and his contemporaries defined the cypherpunk perspective that eventually gave rise to cryptocurrency.
+    - article
+        title: Why I Wrote PGP – Philip Zimmerman (1991)
+        link: https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html
+    - article
+        title: A Cypherpunk’s Manifesto – Eric Hughes (1993)
+        link: https://www.activism.net/cypherpunk/manifesto.html
+    - article
+        title: Modem Grrrl – Jude Milhon (1995)
+        link: https://www.wired.com/1995/02/st-jude/
+    - article
+        title: A Declaration of the Independence of Cyberspace – John Perry Barlow (1996)
+        link: https://www.eff.org/cyberspace-independence
+    - article
+        title: "A World of Strong Privacy: Promises and Perils of Encryption – David Friedman (1996)"
+        link: http://www.daviddfriedman.com/Academic/Strong_Privacy/Strong_Privacy.html
+    - article
+        title: Privacy and Technology – David Friedman (1999)
+        link: http://www.daviddfriedman.com/Academic/Privacy%20and%20Technology.html
+    - article
+        title: The Case for Privacy – David Friedman (2005)
+        link: https://nakamotoinstitute.org/the-case-for-privacy/
+    - article
+        title: Why I’m weird about privacy – Ryan Barrett (2011)
+        link: https://snarfed.org/2011-08-03_why_im_weird_about_privacy
+    - article
+        title: We Should All Have Something To Hide – Moxie Marlinspike (2013)
+        link: https://moxie.org/blog/we-should-all-have-something-to-hide/
+    - article
+        title: Shepherd of the Masked – Kazerad (2014)
+        link: https://kazerad.tumblr.com/post/99022123468/shepherd-of-the-masked
+    - book
+        title: Queer Privacy - Sarah Jamie Lewis and contributors (2017)
+        isbn: 1365978141
+        link: https://leanpub.com/queerprivacy/
+    - article
+        title: Your Secret Right to Cash – Peter Van Valkenburgh (2017)
+        link: https://valkenburgh.tumblr.com/post/165558410543/your-secret-right-to-cash
+    - article
+        title: Is (just) some privacy worth anything? – Tony Sheng (2018)
+        link: https://www.tonysheng.com/privacy-freedom-crypto-anarchy
+    - article
+        title: The Case for Electronic Cash – Jerry Brito (2019)
+        link: https://coincenter.org/entry/the-case-for-electronic-cash
+    - article
+        title: Privacy is power – Carissa Véliz (2019)
+        link: https://aeon.co/essays/privacy-matters-because-it-empowers-us-all
+    
+    - section
+        title: How-To guides
+        items: 
+            - website
+                title: EFF’s Surveillance Self-Defense
+                link: https://ssd.eff.org/en
+            - website
+                title: Zcash Community Forum - Articles about Privacy and Security Recommendations
+                link: https://forum.zcashcommunity.com/t/articles-about-privacy-and-security/33668

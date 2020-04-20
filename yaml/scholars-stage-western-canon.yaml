@@ -1,0 +1,103 @@
+title: Scholar's Stage – The Western Canon
+curator: Scholar's Stage
+source: https://scholars-stage.blogspot.com/2019/10/a-non-western-canon-what-would-list-of.html
+
+items:
+    - book
+        title: The Holy Bible
+        isbn: 0393292495
+    - book
+        title: Homer
+        isbn: 0062046284
+    - book
+        title: Sophocles
+        isbn: 015602764X
+    - book
+        title: Thucydides
+        isbn: 0684827905
+    - book
+        title: Plato
+        isbn: 0872203492
+    - book
+        title: Aristotle
+        isbn: 0226026752
+    - book
+        title: Virgil
+        isbn: 0140449329
+    - book
+        title: Ovid
+        isbn: 0253033594
+    - book
+        title: Epictetus
+        isbn: 9780140449464
+    - book
+        title: Augustine
+        isbn: 0199537828
+    - section
+        title: Icelandic Sagas
+        description: As I see it, there are three broad reasons a work might end up on a list of "great books." The first is that the work is a vehicle for immense beauty or stunning insight. This is necessarily subjective. My decision to include the [Icelandic Sagas](https://amzn.to/31NgEa2) instead of the _[Nibelungenlied](https://amzn.to/31LpYvc)_ was made on these grounds. Both show the West's Germanic heritage; both provide a picture of less-than-heaven-centered Medieval minds at work. But at the end of _my_ day, the emotional journey _[Njal's Saga](https://amzn.to/32P1gLw)_ and its kin took _me_ on was filled with terrible meaning. The _Nibelungenlied_ I just found terribly interesting.
+        items:
+            - book
+                title: Njal's Saga
+                isbn: 0140441034
+            - book
+                title: Saga of the Icelanders
+                isbn: 0141000031
+    - book
+        title: Thomas Aquinas
+        isbn: 0872206637
+    - book
+        title: Dante Alighieri
+        isbn: 1169256813
+    - book
+        title: Nicolo Machiavelli
+        isbn: 9780199555550
+    - book
+        title: Miguel de Cervantes
+        isbn: 0142437239
+    - book
+        title: Michael de Montaigne
+        isbn: 0804704864
+    - book
+        title: William Shakespeare
+        isbn: 0395754909
+    - book
+        title: John Milton
+        isbn: 0872207331
+    - book
+        title: David Hume
+        isbn: 0872202291
+    - book
+        title: Jean-Jacques Rousseau
+        isbn: 1603846735
+    - book
+        title: Immanuel Kant
+        isbn: 9780872203204
+    - book
+        title: Alexis de Tocqueville
+        isbn: 0140447601
+    - book
+        title: Honore de Balzac
+        isbn: 0140442375
+    - book
+        title: Karl Marx
+        isbn: 9780393090406
+    - book
+        title: Leo Tolstoy
+        isbn: 1400079985
+    - book
+        title: John Stuart Mill
+        isbn: 0199670803
+    - book
+        title: George Elliot (Mary Ann Evans)
+        isbn: 0062356143
+    - book
+        title: Friedrich Nietzsche
+        isbn: 014044923X
+    - book
+        title: Fyodor Dostoevsky
+        isbn: 0374528373
+    - book
+        title: Marcel Proust
+        isbn: 1857152506
+
