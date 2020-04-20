@@ -1,0 +1,83 @@
+title: American Gun Culture
+curator: Caroline E. Light and Lindsay Livingston
+source: https://www.publicbooks.org/gun-studies-syllabus/
+
+description: >
+    *In the aftermath of the Parkland school shooting of February 14, 2018, scholar Danielle McGuire invited historians on Twitter to propose readings that would provide resources for gun control activists. In response, Public Books reached out to scholars Caroline Light and Lindsay Livingston to develop a Gun Studies Syllabus.*
+    
+    There are an estimated 310 million firearms in the United States today—more than one gun per person—and while the US comprises about 5 percent of the world’s population, its inhabitants possess over 40 percent of the world’s guns. The US also experiences more gun deaths than any economically comparable nation: more than 38,600 in 2016, with nearly two-thirds of them suicides. How did the nation get here, and what is it doing to prevent gun violence? To answer these questions, this syllabus provides an interdisciplinary introduction to America’s unique “gun culture.”
+
+items:
+    - section
+        title: '“To Keep and Bear”: An Introduction to Gun Culture in the United States'
+        description: This section's readings seek to demystify and question what is meant by “gun culture” and to introduce some popular databases by which gun ownership and gun violence have been tracked and studied in the contemporary US.
+        items:
+            - book
+                isbn: 0190621060
+            - book
+                isbn: 1595580875
+            - paper
+                title: "The Stock and Flow of U.S. Firearms: Results from the 2015 National Firearms Survey"
+                link: https://muse.jhu.edu/article/677232/pdf
+            - article
+                title: "The Big Picture: Gun Culture"
+                link: http://www.publicbooks.org/the-big-picture-gun-culture/
+            - website
+                title: Gun Violence Archive
+                link: https://www.gunviolencearchive.org/
+                optional: true
+            - website
+                title: Small Arms Survey
+                link: http://www.smallarmssurvey.org/
+                optional: true
+            - article
+                title: The Demographics of Gun Ownership
+                link: https://www.pewsocialtrends.org/2017/06/22/the-demographics-of-gun-ownership/
+            
+    - section
+        title: '“A Well-Regulated Militia”: Legal Foundations of “Gun Rights”'
+        description: The section's readings address the nation’s unique legal foundations, particularly the Second Amendment to the US Constitution, in which a right to “have and bear arms” was articulated, while exploring some of the transitions and exclusionary frames through which “Second Amendment Rights” have taken shape over time.
+        items:
+            - book
+                isbn: 1476747458
+            - book
+                isbn: 0195147863
+            - book
+                isbn: 163388564X
+            - book
+                isbn: 0393077411
+            - podcast
+                title: More Perfect Podcast – The Gun Show
+                link: https://www.wnycstudios.org/podcasts/radiolabmoreperfect/episodes/gun-show
+
+            - text
+                text: Now that we have a grasp on the overviews of this topic, we will delve into some primary sources.
+
+            - legaldoc
+                title: "The Federalist Papers: No. 29"
+                link: http://avalon.law.yale.edu/18th_century/fed29.asp
+            - legaldoc
+                title: "The Federalist Papers: No. 46"
+                link: http://avalon.law.yale.edu/18th_century/fed46.asp
+            - legaldoc 
+                title: Proposed Amendments to the Constitution
+                link: https://memory.loc.gov/cgi-bin/ampage?collId=llac&fileName=001/llac001.db&recNum=227
+            - legaldoc
+                title: Dred Scott v. Sandford
+                link: https://supreme.justia.com/cases/federal/us/60/393/case.html
+            - legaldoc
+                title: United States v. Cruikshank
+                link: https://supreme.justia.com/cases/federal/us/60/393/case.html
+            - legaldoc
+                title: District of Columbia v. Heller
+                link: https://supreme.justia.com/cases/federal/us/554/570/
+            - legaldoc
+                title: Militia Act of 1903
+                link: http://legisworks.org/sal/32/stats/STATUTE-32-Pg775.pdf
+                description: This act stipulated the conditions for the federalization of the National Guard
+            - website
+                title: Repository of Historical Gun Laws
+                link: https://web.law.duke.edu/gunlaws/
+                description: This is a good resource for further research in specific firearms legislation.
+                optional: true
+

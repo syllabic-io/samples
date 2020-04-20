@@ -1,0 +1,57 @@
+
+# Must be the base YAML object
+syllabus:
+    title: required
+    curator: optional
+    source: optional
+
+    description: optional   # All descritions can be written in Markdown format
+    image: optional         # To be used as a cover image
+
+    items: required (list)
+
+# All future objects must be a list elements in an `items`
+
+section:
+    title: required
+    description: optional
+    image: optional
+    items: required
+
+article:
+    title: required
+    link: required
+    description: optional
+    image: optional
+    items: optional         # Can create subitems under an item
+    optional: optional      # Can be set to true to mark than an item is an optional exercise for the learner
+
+book:
+    isbn: required
+    title: optional         # Used to override title fetched by ISBN
+    description: optional
+    link: optional          # if not provided, will default to Amazon link
+    items: optional         # Can create subitems under an item
+    optional: optional
+
+video:
+    title: required
+    link: required
+    optional: optional
+
+paper:
+    title: required
+    link: required
+    optional: optional
+
+podcast:
+    title: required
+    link: required
+
+text:
+    title: optional
+    text: required
+
+legaldoc:
+    title: required
+    link: required
