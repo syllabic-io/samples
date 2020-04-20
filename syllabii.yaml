@@ -55,3 +55,10 @@ text:
 legaldoc:
     title: required
     link: required
+
+film:
+    imdb: tt0044706
+    title: optional
+    description: optional
+    link: optional           #  if not provided, will default to IMDB link
+    trailer: optional        #  video link to trailer

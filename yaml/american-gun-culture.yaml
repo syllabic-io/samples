@@ -33,7 +33,6 @@ items:
             - article
                 title: The Demographics of Gun Ownership
                 link: https://www.pewsocialtrends.org/2017/06/22/the-demographics-of-gun-ownership/
-            
     - section
         title: '“A Well-Regulated Militia”: Legal Foundations of “Gun Rights”'
         description: The section's readings address the nation’s unique legal foundations, particularly the Second Amendment to the US Constitution, in which a right to “have and bear arms” was articulated, while exploring some of the transitions and exclusionary frames through which “Second Amendment Rights” have taken shape over time.
@@ -49,10 +48,8 @@ items:
             - podcast
                 title: More Perfect Podcast – The Gun Show
                 link: https://www.wnycstudios.org/podcasts/radiolabmoreperfect/episodes/gun-show
-
             - text
                 text: Now that we have a grasp on the overviews of this topic, we will delve into some primary sources.
-
             - legaldoc
                 title: "The Federalist Papers: No. 29"
                 link: http://avalon.law.yale.edu/18th_century/fed29.asp
@@ -80,4 +77,80 @@ items:
                 link: https://web.law.duke.edu/gunlaws/
                 description: This is a good resource for further research in specific firearms legislation.
                 optional: true
-
+    - section
+        title: '“To Secure These Freedoms”: Colonization, Slave Patrols, and Early Police Forces'
+        description: How has firearm ownership and use been protected—or not—via the Second Amendment? Which populations have been excluded from the right to have and bear arms, and in the interest of which power structures?
+        items:
+            - book
+                isbn: 0872867234
+            - book
+                isbn: 161614839X
+            - article
+                title: The Slave-State Origins of Modern Gun Rights
+                link: https://www.theatlantic.com/politics/archive/2015/09/the-origins-of-public-carry-jurisprudence-in-the-slave-south/407809/
+            - article
+                title: How the U.S. Got Its Police Force
+                link: https://time.com/4779112/police-history-origins/
+            - article
+                title: Indians and Guns
+                link: http://www.angelarriley.com/s/Riley-Indians-and-Guns.pdf
+            - legaldoc
+                title: An act concerning Servants and Slaves (1705)
+                link: https://www.encyclopediavirginia.org/_An_act_concerning_Servants_and_Slaves_1705
+            - legaldoc
+                title: Mississippi Black Codes (1865)
+                link: https://www.facinghistory.org/reconstruction-era/mississippi-black-codes-1865
+            - article
+                title: Massacre At Wounded Knee, 1890
+                link: http://www.eyewitnesstohistory.com/knee.htm
+    - section
+        title: 'How the West Was Won: Guns and the Cowboy Mythos'
+        description: How was the West “won,” and what kinds of violence do our nation’s “Wild West” mythologies obfuscate or silence? This week’s readings unpack and critique traditional notions of the heroic armed “cowboy” whose pluck and determination supposedly tamed a “wild” frontier.
+        items:
+            - book
+                isbn: 0806130318
+            - article
+                title: Did the Wild West Have More Gun Control Than We Do Today?
+                link: https://www.huffpost.com/entry/did-the-wild-west-have-mo_b_956035
+            - article
+                title: Mass Killing in Popular (Mis)Memory
+                link: https://www.beaconbroadside.com/broadside/2016/06/mass-killing-in-popular-mismemory.html
+            - article
+                title: How the Wild West was spun
+                link: https://www.historyextra.com/period/modern/how-the-wild-west-was-spun/
+            - legaldoc
+                title: 'Arizona Territory’s Ordinance No. 9: “To Provide Against Carrying of Deadly Weapons”'
+                link: http://www.famous-trials.com/earp/500-ordinances
+            - film
+                imdb: tt0044706
+            - film
+                imdb: tt1210819
+    - section
+        title: '“This Nonviolent Stuff’ll Get You Killed”: Civil Rights and Armed Resistance'
+        description: Although today historians tend to celebrate the Civil Rights Movement as an example of nonviolent resistance, in the 1960s and 1970s many activists advocated armed self-reliance to oppose white supremacist violence. This week’s readings illuminate what happened when African Americans mobilized their Second Amendment rights to defend communal safety and claim the privileges and protections of full citizenship.
+        items:
+            - book
+                isbn: 0465033105
+            - book
+                isbn: 0814725244
+            - book
+                isbn: 1138740802
+                description: 'Read specically chapter 16: Picking Up the Gun: Spectacular Performances of Firearm Ownership in the Long Civil Rights Movement'
+                link: https://www.academia.edu/37959165/Picking_Up_the_Gun_Spectacular_Performances_of_Firearm_Ownership_in_the_Long_Civil_Rights_Movement
+            - article
+                title: CAN NEGROES AFFORD TO BE PACIFISTS? (1960)
+                link: https://newleftreview.org/issues/I1/articles/robert-f-williams-can-negroes-afford-to-be-pacifists
+            - book
+                isbn: 0872865290
+            - video
+                title: Angela Davis - interview 1972 - talking about revolution
+                link: https://www.youtube.com/watch?v=HuBqyBE1Ppw
+            - article
+                title: Oral History Interview with Mabel Williams (1999)
+                link: https://docsouth.unc.edu/sohp/K-0266/excerpts/excerpt_8789.html#citing
+            - video
+                title: Kathleen Cleaver, Mabel Williams, and Angela Y. Davis – "Self Respect, Self Defense, & Self Determination"
+                link: https://vimeo.com/87520418
+            - video
+                title: Condoleezza Rice on The View, March 1, 2018
+                link: https://www.youtube.com/watch?v=T8WtE70LA2Q
