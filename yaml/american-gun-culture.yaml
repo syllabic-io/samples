@@ -8,149 +8,178 @@ description: >
     There are an estimated 310 million firearms in the United States today—more than one gun per person—and while the US comprises about 5 percent of the world’s population, its inhabitants possess over 40 percent of the world’s guns. The US also experiences more gun deaths than any economically comparable nation: more than 38,600 in 2016, with nearly two-thirds of them suicides. How did the nation get here, and what is it doing to prevent gun violence? To answer these questions, this syllabus provides an interdisciplinary introduction to America’s unique “gun culture.”
 
 items:
-    - section
+    - section:
         title: '“To Keep and Bear”: An Introduction to Gun Culture in the United States'
         description: This section's readings seek to demystify and question what is meant by “gun culture” and to introduce some popular databases by which gun ownership and gun violence have been tracked and studied in the contemporary US.
         items:
-            - book
-                isbn: 0190621060
-            - book
-                isbn: 1595580875
-            - paper
+            - book:
+                title: 'Guns Across America: Reconciling Gun Rules and Rights'
+                link: 'https://www.amazon.com/Guns-across-America-Reconciling-Rights/dp/0190621060'
+                isbn: '0190621060'
+            - book:
+                title: 'Gun Show Nation: Gun Culture and American Democracy'
+                link: https://www.amazon.com/Gun-Show-Nation-American-Democracy/dp/1595580875
+                isbn: '1595580875'
+            - paper:
                 title: "The Stock and Flow of U.S. Firearms: Results from the 2015 National Firearms Survey"
                 link: https://muse.jhu.edu/article/677232/pdf
-            - article
+            - article:
                 title: "The Big Picture: Gun Culture"
                 link: http://www.publicbooks.org/the-big-picture-gun-culture/
-            - website
+            - website:
                 title: Gun Violence Archive
                 link: https://www.gunviolencearchive.org/
                 optional: true
-            - website
+            - website:
                 title: Small Arms Survey
                 link: http://www.smallarmssurvey.org/
                 optional: true
-            - article
+            - article:
                 title: The Demographics of Gun Ownership
                 link: https://www.pewsocialtrends.org/2017/06/22/the-demographics-of-gun-ownership/
-    - section
+    - section:
         title: '“A Well-Regulated Militia”: Legal Foundations of “Gun Rights”'
         description: The section's readings address the nation’s unique legal foundations, particularly the Second Amendment to the US Constitution, in which a right to “have and bear arms” was articulated, while exploring some of the transitions and exclusionary frames through which “Second Amendment Rights” have taken shape over time.
         items:
-            - book
-                isbn: 1476747458
-            - book
-                isbn: 0195147863
-            - book
-                isbn: 163388564X
-            - book
-                isbn: 0393077411
-            - podcast
+            - book:
+                title: 'The Second Amendment: A Biography'
+                link: https://www.amazon.com/Second-Amendment-Biography-Michael-Waldman/dp/1476747458/
+                isbn: '1476747458'
+            - book:
+                title: 'A Well-Regulated Militia: The Founding Fathers and the Origins of Gun Control in America'
+                link: https://www.amazon.com/Well-Regulated-Militia-Founding-Fathers-Origins/dp/B07FF2QWH4
+                isbn: '0195147863'
+            - book:
+                title: 'Armed in America: A History of Gun Rights from Colonial Militias to Concealed Carry'
+                link: https://www.amazon.com/Armed-America-Colonial-Militias-Concealed/dp/163388564X
+                isbn: '163388564X'
+            - book:
+                title: 'Gunfight: The Battle over the Right to Bear Arms in America'
+                link: https://www.amazon.com/Gunfight-Battle-over-Right-America/dp/0393077411
+                isbn: '0393077411'
+            - podcast:
                 title: More Perfect Podcast – The Gun Show
                 link: https://www.wnycstudios.org/podcasts/radiolabmoreperfect/episodes/gun-show
-            - text
-                text: Now that we have a grasp on the overviews of this topic, we will delve into some primary sources.
-            - legaldoc
+            - text:
+                description: Now that we have a grasp on the overviews of this topic, we will delve into some primary sources.
+            - legaldoc:
                 title: "The Federalist Papers: No. 29"
                 link: http://avalon.law.yale.edu/18th_century/fed29.asp
-            - legaldoc
+            - legaldoc:
                 title: "The Federalist Papers: No. 46"
                 link: http://avalon.law.yale.edu/18th_century/fed46.asp
-            - legaldoc 
+            - legaldoc:
                 title: Proposed Amendments to the Constitution
                 link: https://memory.loc.gov/cgi-bin/ampage?collId=llac&fileName=001/llac001.db&recNum=227
-            - legaldoc
+            - legaldoc:
                 title: Dred Scott v. Sandford
                 link: https://supreme.justia.com/cases/federal/us/60/393/case.html
-            - legaldoc
+            - legaldoc:
                 title: United States v. Cruikshank
                 link: https://supreme.justia.com/cases/federal/us/60/393/case.html
-            - legaldoc
+            - legaldoc:
                 title: District of Columbia v. Heller
                 link: https://supreme.justia.com/cases/federal/us/554/570/
-            - legaldoc
+            - legaldoc:
                 title: Militia Act of 1903
                 link: http://legisworks.org/sal/32/stats/STATUTE-32-Pg775.pdf
                 description: This act stipulated the conditions for the federalization of the National Guard
-            - website
+            - website:
                 title: Repository of Historical Gun Laws
                 link: https://web.law.duke.edu/gunlaws/
                 description: This is a good resource for further research in specific firearms legislation.
                 optional: true
-    - section
+    - section:
         title: '“To Secure These Freedoms”: Colonization, Slave Patrols, and Early Police Forces'
         description: How has firearm ownership and use been protected—or not—via the Second Amendment? Which populations have been excluded from the right to have and bear arms, and in the interest of which power structures?
         items:
-            - book
-                isbn: 0872867234
-            - book
-                isbn: 161614839X
-            - article
+            - book:
+                title: 'Loaded: A Disarming History of the Second Amendment'
+                link: https://www.amazon.com/Loaded-Disarming-History-Second-Amendment/dp/0872867234/
+                isbn: '0872867234'
+            - book:
+                title: Negroes and the Gun
+                link: https://www.amazon.com/Negroes-Gun-Black-Tradition-Arms/dp/161614839X/
+                isbn: '161614839X'
+            - article:
                 title: The Slave-State Origins of Modern Gun Rights
                 link: https://www.theatlantic.com/politics/archive/2015/09/the-origins-of-public-carry-jurisprudence-in-the-slave-south/407809/
-            - article
+            - article:
                 title: How the U.S. Got Its Police Force
                 link: https://time.com/4779112/police-history-origins/
-            - article
+            - article:
                 title: Indians and Guns
                 link: http://www.angelarriley.com/s/Riley-Indians-and-Guns.pdf
-            - legaldoc
+            - legaldoc:
                 title: An act concerning Servants and Slaves (1705)
                 link: https://www.encyclopediavirginia.org/_An_act_concerning_Servants_and_Slaves_1705
-            - legaldoc
+            - legaldoc:
                 title: Mississippi Black Codes (1865)
                 link: https://www.facinghistory.org/reconstruction-era/mississippi-black-codes-1865
-            - article
+            - article:
                 title: Massacre At Wounded Knee, 1890
                 link: http://www.eyewitnesstohistory.com/knee.htm
-    - section
+    - section:
         title: 'How the West Was Won: Guns and the Cowboy Mythos'
         description: How was the West “won,” and what kinds of violence do our nation’s “Wild West” mythologies obfuscate or silence? This week’s readings unpack and critique traditional notions of the heroic armed “cowboy” whose pluck and determination supposedly tamed a “wild” frontier.
         items:
-            - book
-                isbn: 0806130318
-            - article
+            - book:
+                title: 'The Gunfighter Nation: Myth of the Frontier in Twentieth-Century America'
+                link: https://www.amazon.com/Gunfighter-Nation-Frontier-Twentieth-Century-America/
+                isbn: '0806130318'
+            - article:
                 title: Did the Wild West Have More Gun Control Than We Do Today?
                 link: https://www.huffpost.com/entry/did-the-wild-west-have-mo_b_956035
-            - article
+            - article:
                 title: Mass Killing in Popular (Mis)Memory
                 link: https://www.beaconbroadside.com/broadside/2016/06/mass-killing-in-popular-mismemory.html
-            - article
+            - article:
                 title: How the Wild West was spun
                 link: https://www.historyextra.com/period/modern/how-the-wild-west-was-spun/
-            - legaldoc
+            - legaldoc:
                 title: 'Arizona Territory’s Ordinance No. 9: “To Provide Against Carrying of Deadly Weapons”'
                 link: http://www.famous-trials.com/earp/500-ordinances
-            - film
-                imdb: tt0044706
-            - film
-                imdb: tt1210819
-    - section
+            - film:
+                title: High Noon
+                link: https://www.imdb.com/title/tt0044706/
+                imdb: '0044706'
+            - film:
+                title: The Lone Ranger
+                link: https://www.imdb.com/title/tt1210819/
+                imdb: '1210819'
+    - section:
         title: '“This Nonviolent Stuff’ll Get You Killed”: Civil Rights and Armed Resistance'
-        description: Although today historians tend to celebrate the Civil Rights Movement as an example of nonviolent resistance, in the 1960s and 1970s many activists advocated armed self-reliance to oppose white supremacist violence. This week’s readings illuminate what happened when African Americans mobilized their Second Amendment rights to defend communal safety and claim the privileges and protections of full citizenship.
+        description: 'Although today historians tend to celebrate the Civil Rights Movement as an example of nonviolent resistance, in the 1960s and 1970s many activists advocated armed self-reliance to oppose white supremacist violence. This week’s readings illuminate what happened when African Americans mobilized their Second Amendment rights to defend communal safety and claim the privileges and protections of full citizenship.'
         items:
-            - book
-                isbn: 0465033105
-            - book
-                isbn: 0814725244
-            - book
-                isbn: 1138740802
+            - book:
+                title: "This Nonviolent Stuff'll Get You Killed: How Guns Made the Civil Rights Movement Possible"
+                link: https://www.amazon.com/This-Nonviolent-Stuffll-Get-Killed/dp/0465033105/
+                isbn: '0465033105'
+            - book:
+                title: 'We Will Shoot Back: Armed Resistance in the Mississippi Freedom Movement'
+                link: https://www.amazon.com/Will-Shoot-Back-Resistance-Mississippi/dp/0814725244/
+                isbn: '0814725244'
+            - book:
+                title: Performance in a Militarized Culture
+                isbn: '1138740802'
                 description: 'Read specically chapter 16: Picking Up the Gun: Spectacular Performances of Firearm Ownership in the Long Civil Rights Movement'
                 link: https://www.academia.edu/37959165/Picking_Up_the_Gun_Spectacular_Performances_of_Firearm_Ownership_in_the_Long_Civil_Rights_Movement
-            - article
+            - article:
                 title: CAN NEGROES AFFORD TO BE PACIFISTS? (1960)
                 link: https://newleftreview.org/issues/I1/articles/robert-f-williams-can-negroes-afford-to-be-pacifists
-            - book
-                isbn: 0872865290
-            - video
+            - book:
+                title: To Die for the People
+                link: https://www.amazon.com/Die-People-Huey-Newton/dp/0872865290/
+                isbn: '0872865290'
+            - video:
                 title: Angela Davis - interview 1972 - talking about revolution
                 link: https://www.youtube.com/watch?v=HuBqyBE1Ppw
-            - article
+            - article:
                 title: Oral History Interview with Mabel Williams (1999)
                 link: https://docsouth.unc.edu/sohp/K-0266/excerpts/excerpt_8789.html#citing
-            - video
+            - video:
                 title: Kathleen Cleaver, Mabel Williams, and Angela Y. Davis – "Self Respect, Self Defense, & Self Determination"
                 link: https://vimeo.com/87520418
-            - video
+            - video:
                 title: Condoleezza Rice on The View, March 1, 2018
                 link: https://www.youtube.com/watch?v=T8WtE70LA2Q

@@ -6,7 +6,7 @@ syllabus:
     source: optional
 
     description: optional   # All descritions can be written in Markdown format
-    image: optional         # To be used as a cover image
+    image: optional         # To be used as a cover image. Not implemented yet.
 
     items: required (list)
 
@@ -27,15 +27,15 @@ article:
     optional: optional      # Can be set to true to mark than an item is an optional exercise for the learner
 
 book:
-    isbn: required
-    title: optional         # Used to override title fetched by ISBN
+    title: required
+    link: required
     description: optional
-    link: optional          # if not provided, will default to Amazon link
+    isbn: optional
     items: optional         # Can create subitems under an item
     optional: optional
 
 video:
-    title: required
+    title: optional
     link: required
     optional: optional
 
@@ -45,20 +45,38 @@ paper:
     optional: optional
 
 podcast:
-    title: required
+    title: optional
     link: required
 
 text:
     title: optional
-    text: required
+    text: optional
+    link: optional
+    completable: optional
 
 legaldoc:
     title: required
     link: required
 
 film:
-    imdb: tt0044706
+    title: required
+    link: required           #  if not provided, will default to IMDB link
+    description: optional
+    imdb: optional
+
+
+forum:
+    title: required
+    link: required
+    description: optional
+
+spec:
+    title: required
+    link: required
+    description: optional
+
+tweet:
+    link: required
     title: optional
     description: optional
-    link: optional           #  if not provided, will default to IMDB link
-    trailer: optional        #  video link to trailer
+

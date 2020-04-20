@@ -2,80 +2,78 @@ title:  Byzantine Fault Tolerance from the Fundamentals
 curator:  Zarko Milosevic
 
 items:
-    - paper
+    - paper:
         title: Consensus in the Presence of Partial Synchrony
         link: https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf
         description: For me the most interesting part is model definition and the implementation of rounds. These ideas are used in all algorithms to create some sort of round structure, and is essential for termination. Consensus algorithms are not considered as most advanced but there are some nice ideas, like locking and unlocking concepts.
-    - paper 
+    - paper:
         title: Practical byzantine fault tolerance and proactive recovery
         link: http://www.pmg.csail.mit.edu/papers/bft-tocs.pdf
-    - paper
+    - paper:
         title: Fast Byzantine Consensus
         link: http://www.cs.cornell.edu/lorenzo/papers/Martin06Fast.pdf
         description: >
             Regarding these two papers, although they are definitely seminal, they are not necessarily easy read, and they don't in a clear way express core mechanisms. Regarding PBFT, the most important idea (in my view) is implementing Byzantine-tolerant consensus without signatures.
             But this mechanism is hidden in the SMR algorithm. This might be useful to know in the context of quantum-resistant algorithms as only assumes secure point-to-point computation. Proactive recovery part has some cool ideas in the context of snapshotting and catch-up of algorithms. The other paper is simpler read, but I am not sure it also explains the idea as simple as possible, as for example it relies on the signatures which is not needed in case of 5f+1. Signature vs signature-free was big deal in the past as algorithms were mostly designed for LAN, and there the cost of signatures matters a lot."
-    - paper 
+    - paper:
         title: Unifying Byzantine Consensus Algorithms with Weak Interactive Consistency
         link: https://infoscience.epfl.ch/record/140295
         description: This is a paper I was involved that extract core consensus mechanism of both of these algorithms and present it in a simpler way using DLS round based model.
-
-    - section
+    - section:
         title: Atomic broadcast reduction to consensus
-        
         items:
-            - paper
+            - paper:
                 title: "From Byzantine Consensus to BFT State Machine Replication: A Latency-Optimal Transformation"
                 link: https://www.semanticscholar.org/paper/From-Byzantine-Consensus-to-BFT-State-Machine-A-Sousa-Bessani/fa27f4e4b2d8e62a70a1cebf3b352057c1b6527b
                 description: This is at the base of BFT-smart library.
                 
                 items:
-                    - paper
+                    - paper:
                         title: State Machine Replication for the Masses with BFT-SMART
                         link: http://www.di.fc.ul.pt/~bessani/publications/dsn14-bftsmart.pdf
                         description:  This is the BFT Smart paper itself.
                         optional: true      
-            - paper
+            - paper:
                 title: On the Reduction of Atomic Broadcast to Consensus with Byzantine Faults
                 link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.363.5421&rep=rep1&type=pdf
                 description: In this paper we look at different consensus validity and find the optimal one for reduction to consensus.
         
-        - paper
-            title: Automatic Reconfiguration for Large-Scale Reliable Storage Systems
-            link: http://www.pmg.csail.mit.edu/papers/tdsc12.pdf
-            description: In the context of automatic reconfiguration in case of BFT protocols, this is nice paper.
+    - paper:
+        title: Automatic Reconfiguration for Large-Scale Reliable Storage Systems
+        link: http://www.pmg.csail.mit.edu/papers/tdsc12.pdf
+        description: In the context of automatic reconfiguration in case of BFT protocols, this is nice paper.
         
-        - section
-            title: Performance attacks on leader-based protocols
-            description: This was a hot topic a few few years ago in academia, and there are several ideas.  These papers provide a good view.
+    - section:
+        title: Performance attacks on leader-based protocols
+        description: This was a hot topic a few few years ago in academia, and there are several ideas.  These papers provide a good view.
 
-            items:
-                - paper
-                    title: "Prime: Byzantine Replication Under Attack"
-                    link: http://www.cnds.jhu.edu/pub/papers/Prime_tdsc_accepted.pdf
-                    description: This one explains the problem, although solution is not very elegant.
-                - paper
-                    title: "Bounded Delay in Byzantine-Tolerant State Machine Replication"
-                    link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.363.4986&rep=rep1&type=pdf
-                    description: In this paper, we introduce algorithm called BFT-Mencius that is BFT variant of Mencius algorithm.  BFT-Mencius is designed to be modular, fully decentralised and to tolerate performance attacks.
+        items:
+            - paper:
+                title: "Prime: Byzantine Replication Under Attack"
+                link: http://www.cnds.jhu.edu/pub/papers/Prime_tdsc_accepted.pdf
+                description: This one explains the problem, although solution is not very elegant.
+            - paper:
+                title: "Bounded Delay in Byzantine-Tolerant State Machine Replication"
+                link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.363.4986&rep=rep1&type=pdf
+                description: In this paper, we introduce algorithm called BFT-Mencius that is BFT variant of Mencius algorithm.  BFT-Mencius is designed to be modular, fully decentralised and to tolerate performance attacks.
 
-                    items:
-                        - paper
-                            title: "Mencius: Building Efficient Replicated State Machines for WANs"
-                            link: https://www.usenix.org/legacy/event/osdi08/tech/full_papers/mao/mao_html/index.html
-                            description: Background on the Mencius algorithm itself.
-                            optional: true
-        
-        - section
-            title: Randomised Protocols
-            description: Regarding randomised protocols, they are normally considered too slow, at least for LAN setting, but this might change. I might suggest these three
-            items:
-                - paper 
-                    title: Ben-Or Algorithm
-                    link: https://allquantor.at/blockchainbib/pdf/ben1983another.pdf
-                - paper
-                    title: "Random Oracles in Constantinople: Practical Asynchronous Byzantine Agreement using Cryptography"
-                    link: https://allquantor.at/blockchainbib/pdf/cachin2000random.pdf
-                - paper
-                    title: The Honey Badger of BFT Protocols
-                    link: https://eprint.iacr.org/2016/199.pdf
+                items:
+                    - paper:
+                        title: "Mencius: Building Efficient Replicated State Machines for WANs"
+                        link: https://www.usenix.org/legacy/event/osdi08/tech/full_papers/mao/mao_html/index.html
+                        description: Background on the Mencius algorithm itself.
+                        optional: true
+    
+    - section:
+        title: Randomised Protocols
+        description: Regarding randomised protocols, they are normally considered too slow, at least for LAN setting, but this might change. I might suggest these three
+        items:
+            - paper:
+                title: Ben-Or Algorithm
+                link: https://allquantor.at/blockchainbib/pdf/ben1983another.pdf
+            - paper:
+                title: "Random Oracles in Constantinople: Practical Asynchronous Byzantine Agreement using Cryptography"
+                link: https://allquantor.at/blockchainbib/pdf/cachin2000random.pdf
+            - paper:
+                title: The Honey Badger of BFT Protocols
+                link: https://eprint.iacr.org/2016/199.pdf

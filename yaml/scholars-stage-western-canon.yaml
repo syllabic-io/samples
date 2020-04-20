@@ -3,101 +3,132 @@ curator: Scholar's Stage
 source: https://scholars-stage.blogspot.com/2019/10/a-non-western-canon-what-would-list-of.html
 
 items:
-    - book
+    - book:
         title: The Holy Bible
+        link: https://www.amazon.com/Hebrew-Bible-Translation-Commentary-Three/dp/0393292495
         isbn: 0393292495
-    - book
+    - book:
         title: Homer
+        link: https://www.amazon.com/Iliad-New-Translation-Caroline-Alexander/dp/0062046284/
         isbn: 0062046284
-    - book
+    - book:
         title: Sophocles
+        link: https://www.amazon.com/Sophocles-Oedipus-Cycle-Colonus-Antigone/dp/015602764X/
         isbn: 015602764X
-    - book
+    - book:
         title: Thucydides
+        link: https://www.amazon.com/Landmark-Thucydides-Comprehensive-Guide-Peloponnesian/dp/0684827905/
         isbn: 0684827905
-    - book
+    - book:
         title: Plato
+        link: https://www.amazon.com/Plato-Complete-Works/dp/0872203492/
         isbn: 0872203492
-    - book
+    - book:
         title: Aristotle
+        link: https://www.amazon.com/Aristotles-Nicomachean-Ethics-Aristotle/dp/0226026752/
         isbn: 0226026752
-    - book
+    - book:
         title: Virgil
+        link: https://www.amazon.com/Aeneid-Penguin-Classics-Virgil/dp/0140449329/
         isbn: 0140449329
-    - book
+    - book:
         title: Ovid
+        link: https://www.amazon.com/Metamorphoses-New-Annotated-Ovid/dp/0253033594/
         isbn: 0253033594
-    - book
+    - book:
         title: Epictetus
+        link: https://www.amazon.com/Discourses-Selected-Writings-Penguin-Classics/dp/0140449469/
         isbn: 9780140449464
-    - book
+    - book:
         title: Augustine
+        link: https://www.amazon.com/Confessions-Oxford-Worlds-Classics-Augustine/dp/0199537828/
         isbn: 0199537828
-    - section
+    - section:
         title: Icelandic Sagas
         description: As I see it, there are three broad reasons a work might end up on a list of "great books." The first is that the work is a vehicle for immense beauty or stunning insight. This is necessarily subjective. My decision to include the [Icelandic Sagas](https://amzn.to/31NgEa2) instead of the _[Nibelungenlied](https://amzn.to/31LpYvc)_ was made on these grounds. Both show the West's Germanic heritage; both provide a picture of less-than-heaven-centered Medieval minds at work. But at the end of _my_ day, the emotional journey _[Njal's Saga](https://amzn.to/32P1gLw)_ and its kin took _me_ on was filled with terrible meaning. The _Nibelungenlied_ I just found terribly interesting.
         items:
-            - book
-                title: Njal's Saga
+            - book:
+                title: "Njal's Saga"
+                link: https://www.amazon.com/Njals-Saga-Classics-Magnus-Magnusson/dp/0140441034/
                 isbn: 0140441034
-            - book
+            - book:
                 title: Saga of the Icelanders
+                link: https://www.amazon.com/Sagas-Icelanders-Penguin-Classics-Deluxe/dp/0141000031/
                 isbn: 0141000031
-    - book
+    - book:
         title: Thomas Aquinas
+        link: https://www.amazon.com/Law-Morality-Politics-Hackett-Classics/dp/0872206637/
         isbn: 0872206637
-    - book
+    - book:
         title: Dante Alighieri
+        link: https://www.amazon.com/Paradise-Divine-Comedy-Dante-ebook/dp/B00AXIZ61C/
         isbn: 1169256813
-    - book
+    - book:
         title: Nicolo Machiavelli
+        link: https://www.amazon.com/Discourses-Livy-Oxford-Worlds-Classics/dp/0199555559/
         isbn: 9780199555550
-    - book
+    - book:
         title: Miguel de Cervantes
+        link: https://www.amazon.com/Quixote-Penguin-Classics-Cervantes-Saavedra/dp/0142437239/
         isbn: 0142437239
-    - book
+    - book:
         title: Michael de Montaigne
+        link: https://www.amazon.com/Complete-Essays-Montaigne-Michel/dp/0804704864/
         isbn: 0804704864
-    - book
+    - book:
         title: William Shakespeare
+        link: https://www.amazon.com/Riverside-Shakespeare-2nd-William/dp/0395754909/
         isbn: 0395754909
-    - book
+    - book:
         title: John Milton
+        link: https://www.amazon.com/Paradise-Lost-Hackett-Classics/dp/0872207331/
         isbn: 0872207331
-    - book
+    - book:
         title: David Hume
+        link: https://www.amazon.com/gp/product/B004L628UY/
         isbn: 0872202291
-    - book
+    - book:
         title: Jean-Jacques Rousseau
+        link: https://www.amazon.com/Rousseau-Political-Writings-Discourse-Inequality/dp/1603846735/
         isbn: 1603846735
-    - book
+    - book:
         title: Immanuel Kant
+        link: https://www.amazon.com/Kant-Philosophy-Metaphysics-Metaphysical-Philanthropic/dp/0872203204/
         isbn: 9780872203204
-    - book
+    - book:
         title: Alexis de Tocqueville
+        link: https://www.amazon.com/Democracy-America-Essays-Penguin-Classics/dp/0140447601/
         isbn: 0140447601
-    - book
+    - book:
         title: Honore de Balzac
+        link: https://www.amazon.com/Black-Sheep-Human-Comedy/dp/0140442375/
         isbn: 0140442375
-    - book
+    - book:
         title: Karl Marx
+        link: https://www.amazon.com/The-Marx-Engels-Reader-Second-Edition/dp/039309040X/
         isbn: 9780393090406
-    - book
+    - book:
         title: Leo Tolstoy
+        link: https://www.amazon.com/War-Peace-Vintage-Classics-Tolstoy/dp/1400079985/
         isbn: 1400079985
-    - book
+    - book:
         title: John Stuart Mill
+        link: https://www.amazon.com/Liberty-Utilitarianism-Essays-Oxford-Classics/dp/0199670803/
         isbn: 0199670803
-    - book
+    - book:
         title: George Elliot (Mary Ann Evans)
+        link: https://www.amazon.com/Middlemarch-George-Eliot/dp/0062356143/
         isbn: 0062356143
-    - book
+    - book:
         title: Friedrich Nietzsche
+        link: https://www.amazon.com/gp/product/B002RI9R3O/
         isbn: 014044923X
-    - book
+    - book:
         title: Fyodor Dostoevsky
+        link: https://www.amazon.com/Brothers-Karamazov-Fyodor-Dostoevsky/dp/0374528373/
         isbn: 0374528373
-    - book
+    - book:
         title: Marcel Proust
+        link: https://www.amazon.com/Search-Lost-Time-Proust-Marcel/dp/1857152506/
         isbn: 1857152506
 
