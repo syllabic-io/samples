@@ -1,0 +1,832 @@
+title: Bitcoin Protocol Development Curriculum
+curator: Chaincode Labs
+source: https://github.com/chaincodelabs/bitcoin-curriculum
+
+items: 
+    - section:
+        title: Introduction
+        items:
+            - paper:
+                title: Bitcoin White Paper
+                link: https://bitcoin.org/bitcoin.pdf
+            - article:
+                title: If I'd Known What We Were Starting (2017)
+                link: https://www.linkedin.com/pulse/id-known-what-we-were-starting-ray-dillinger/
+            - article:
+                title: Bitcoin's Academic Pedigree (2017)
+                link: https://queue.acm.org/detail.cfm?id=3136559
+            - video:
+                title: Intro to Blockchain
+                link: https://www.youtube.com/watch?v=on5ySFK0aoY
+            - paper:
+                title: The Economic Limits of Bitcoin and the Blockchain
+                link: https://faculty.chicagobooth.edu/eric.budish/research/Economic-Limits-Bitcoin-Blockchain.pdf
+            - article:
+                title: The Anatomy of Proof-of-Work
+                link: https://bitcointechtalk.com/the-anatomy-of-proof-of-work-98c85b6f6667
+            - paper:
+                title: Bitcoin Developer Reference
+                link: https://www.lopp.net/pdf/Bitcoin_Developer_Reference.pdf
+            - website:
+                title: Difficulty adjustment
+                link: https://bitcoin.stackexchange.com/questions/855/what-keeps-the-average-block-time-at-10-minutes/857#857
+            - paper:
+                title: The Byzantine Generals Problem
+                link: http://diyhpl.us/~bryan/papers2/bitcoin/The%20Byzantine%20generals%20problem%20-%20Lamport%20-%201982.pdf
+            - forum:
+                title: Running a full node
+                link: https://www.reddit.com/r/BitcoinBeginners/comments/3eq3y7/full_node_question/ctk4lnd/
+    - section:
+        title: History & Philosophy of Bitcoin
+        items:
+            - article:
+                title: The Incomplete History of Bitcoin Development
+                link: https://b10c.me/blog/004-the-incomplete-history-of-bitcoin-development/
+            - video:
+                title: What is Consensus?
+                link: https://www.youtube.com/watch?v=fw3WkySh_Ho
+    - section:
+        title: Soft Forks & Protocol Overview
+        items:
+            - article:
+                title: On Unstoppability of Softforks
+                link: https://zmnscpxj.github.io/bitcoin/unpreventable-softforks.html
+            - text:
+                title: Upgrading the protocol
+                description: TODO
+                completable: true
+            - article:
+                title: Example soft forks
+                link: https://en.bitcoin.it/wiki/Softfork
+            - article:
+                title: Forks, Signaling, and Activation
+                link: https://medium.com/@elombrozo/forks-signaling-and-activation-d60b6abda49a
+            - article:
+                title: Better Fork Terminology
+                link: http://www.truthcoin.info/blog/protocol-upgrade-terminology/
+            - article:
+                title: Forced Soft Forks
+                link: https://petertodd.org/2016/forced-soft-forks
+            - article:
+                title: Flag day upgrades
+                link: https://medium.com/@bergealex4/uasf-user-driven-protocol-development-da4e886832d
+            - spec:
+                title: IsSuperMajority signaling - BIP 65 Spec
+                link: https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki
+            - section:
+                title: BIP 9
+                items:
+                    - article:
+                        title: 'BIP9: versionbits In a Nutshell'
+                        link: https://rusty.ozlabs.org/?p=576
+                    - spec:
+                        title: BIP9 Spec
+                        link: https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki
+            - section:
+                title: BIP148 and BIP149
+                items:
+                    - spec:
+                        title: BIP 148 Spec
+                        link: https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki
+                    - spec:
+                        title: BIP 149 Spec
+                        link: https://github.com/bitcoin/bips/blob/master/bip-0149.mediawiki
+                    - article:
+                        title: UASF BIP148 Scenarios and Game Theory
+                        link: https://medium.com/@jimmysong/uasf-bip148-scenarios-and-game-theory-9530336d953e
+                    - article:
+                        title: 'User Activated Soft Forks: the BIP 148 alternative'
+                        link: https://segwit.org/user-activated-soft-forks-the-bip-148-alternative-28e87ffdb76f
+            - spec:
+                title: BIP91
+                link: https://github.com/bitcoin/bips/blob/master/bip-0091.mediawiki
+    - section:
+        title: Security Models
+        items:
+            - section:
+                title: Overview
+                items:
+                    - article:
+                        title: Overview of Security Concerns
+                        link: https://diyhpl.us/wiki/transcripts/scalingbitcoin/overview-of-security-concerns/
+                    - video:
+                        title: Danger! Bitcoin Threat Models
+                        link: https://vimeo.com/316625785#t=750s
+                    - article:
+                        title: 'Bitcoin’s Security Model: A Deep Dive'
+                        link: https://www.coindesk.com/bitcoins-security-model-deep-dive
+                    - article:
+                        title: "Bitcoin Weaknesses"
+                        link: https://en.bitcoin.it/wiki/Weaknesses
+                    - paper:
+                        title: Speed-Security Tradeoffs in Blockchain Protocols
+                        link: https://pdfs.semanticscholar.org/ac1a/918fc933b767d34574ec2cc6a33b4223dc1a.pdf
+            - section:
+                title: Checkpoints, assumevalid, minimumchainwork
+                items:
+                    - article:
+                        title: Bitcoin's Diversity of Use-Cases and Security Models
+                        link: https://bluematt.bitcoin.ninja/2017/02/28/bitcoin-trustlessness/
+                    - tweet:
+                        title: Dave Harding Tweet on assumed valid blocks and minimum chainwork
+                        link: https://twitter.com/hrdng/status/869206705548271616
+            - spec:
+                title: Defining SPV and lightclients
+                link: https://gist.github.com/ariard/1034cd7624805d53334e80d4712fb8ee
+            - section:
+                title: BIP 37 (bloom filters)
+                items:
+                    - spec:
+                        title: BIP 39 Spec
+                        link: https://github.com/bitcoin/bips/blob/master/bip-0037.mediawiki
+                    - paper:
+                        title: On the Privacy Provisions of Bloom Filters in Lightweight Bitcoin Clients
+                        link: https://eprint.iacr.org/2014/763.pdf
+            - section:
+                title: Neutrino
+                items:
+                    - spec:
+                        title: BIP 157 Spec
+                        link: https://github.com/bitcoin/bips/blob/master/bip-0157.mediawiki
+                    - article:
+                        title: 'Neutrino: The Lighter Side of Lightning'
+                        link: https://blog.lightning.engineering/posts/2018/10/17/neutrino.html
+                    - forum:
+                        title: Index for BIP 157 block filters
+                        link: https://github.com/bitcoin/bitcoin/pull/14121
+                    - video:
+                        title: Exploring Neutrino
+                        link: https://vimeo.com/316626387
+            - spec:
+                title: Committed bloom filters
+                link: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2016-May/012636.html
+            - section:
+                title: Fraud proofs
+                items:
+                    - article:
+                        title: Fraud Proofs - Mustafa Al-Bassam
+                        link: https://diyhpl.us/wiki/transcripts/scalingbitcoin/tokyo-2018/fraud-proofs/
+                    - spec:
+                        title: 'Fraud Proofs: Improving the ability of SPV clients to detect invalid chains'
+                        link: https://gist.github.com/justusranvier/451616fa4697b5f25f60
+                    - forum:
+                        title: Bitcoin Wizards Fraud Proof thread
+                        link: https://people.xiph.org/~greg/bitcoin-wizards-fraud-proof.log.txt
+                    - forum:
+                        title: Improving SPV security with PoW fraud proofs
+                        link: https://www.mail-archive.com/bitcoin-dev@lists.linuxfoundation.org/msg07913.html
+            - forum:
+                title: Committed UTXO hashes
+                link: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-October/011638.html
+            - spec:
+                title: Assume UTXO FAQ
+                link: https://github.com/jamesob/assumeutxo-docs/tree/2019-04-proposal/proposal
+    - section:
+        title: Mining
+        items:
+            - article:
+                title: Poisson distribution/Progress-free-ness
+                link: https://towardsdatascience.com/the-poisson-distribution-and-poisson-process-explained-4e2cb17d459
+            - paper:
+                title: Block arrivals in the Bitcoin blockchain
+                link: https://arxiv.org/pdf/1801.07447.pdf
+            - forum:
+                title: Fee Sniping
+                link: https://www.reddit.com/r/Bitcoin/comments/47upgx/nsequence_and_optin_replacebyfee_difference/d0g612x/?context=5
+            - section:
+                title: Selfish Mining
+                items:
+                    - paper:
+                        title: On the Instability of Bitcoin Without the Block Reward
+                        link: https://www.cs.princeton.edu/~smattw/CKWN-CCS16.pdf
+                    - paper:
+                        title: 'Majority is not Enough: Bitcoin Mining is Vulnerable'
+                        link: https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf
+                    - article:
+                        title: How to mine bitcoin profitably (2015)
+                        link: https://scalingbitcoin.org/transcript/montreal2015/how-to-mine-bitcoin-profitably
+                    - article:
+                        title: Why Bitcoin Mining Pools Aren’t Incentivized To Broadcast Blocks Quickly
+                        link: https://bitcoinmagazine.com/articles/why-bitcoin-mining-pools-aren-t-incentivized-to-broadcast-blocks-quickly-1475249510
+                    - paper:
+                        title: Optimal Selfish Mining Strategies in Bitcoin
+                        link: http://diyhpl.us/~bryan/papers2/bitcoin/Optimal%20selfish%20mining%20strategies%20in%20bitcoin.pdf
+                    - article:
+                        title: If There Is An Answer To Selfish Mining, Braiding Could Be It
+                        link: https://bitcoinmagazine.com/articles/if-there-is-an-answer-to-selfish-mining-braiding-could-be-it-1482876153
+            - article:
+                title: 51% attacks
+                link: https://medium.com/chainrift-research/bitcoins-attack-vectors-51-attacks-a96deac43774
+            - article:
+                title: BetterHash
+                link: https://github.com/TheBlueMatt/bips/blob/betterhash/bip-XXXX.mediawiki
+            - paper:
+                title: No Reward Mining Overview
+                link: https://www.cs.princeton.edu/~smattw/CKWN-CCS16.pdf
+            - paper:
+                title: Pool Overview
+                link: http://diyhpl.us/~bryan/papers2/bitcoin/Analysis%20of%20Bitcoin%20pooled%20mining%20reward%20systems%20-%20Rosenfeld%20-%202011.pdf
+            - forum:
+                title: Pool Hopping
+                link: https://bitcointalk.org/index.php?topic=39832
+            - website:
+                title: PPS As a Real-World Business Solution
+                link: https://en.bitcoin.it/wiki/Pooled_mining#The_Pay-per-Share_approach
+                description: Specifically the section on the Pay per Share Share_approach
+            - article:
+                title: Trustless Pools
+                link: https://en.bitcoin.it/wiki/P2Pool
+            - forum:
+                title: Payment Channel Payouts
+                link: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-August/014893.html
+            - section:
+                title: ASICBoost
+                items:
+                    - paper:
+                        title: 'AsicBoost: A Speedup for Bitcoin Mining'
+                        link: https://arxiv.org/pdf/1604.00575.pdf
+                    - paper:
+                        title: The Problem with ASICBOOST
+                        link: http://www.mit.edu/~jlrubin//public/pdfs/Asicboost.pdf
+                    - forum:
+                        title: Inhibiting a covert attack on the Bitcoin POW function
+                        link: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-April/013996.html
+            - section:
+                title: BCH Mining/Difficulty Adjustment
+                items:
+                    - article:
+                        title: Bringing Stability to Bitcoin Cash Difficulty Adjustments
+                        link: https://medium.com/@Mengerian/bringing-stability-to-bitcoin-cash-difficulty-adjustments-eae8def0efa4
+                    - article:
+                        title: Bitcoin Cash Difficulty Adjustments
+                        link: https://medium.com/@jimmysong/bitcoin-cash-difficulty-adjustments-2ec589099a8e
+                    - article:
+                        title: Difficulty Adjustment Algorithm Update
+                        link: https://www.bitcoinabc.org/2017-11-01-DAA/
+            - paper:
+                title: TumbleBit
+                link: https://open.bu.edu/bitstream/handle/2144/29224/575.pdf?sequence=2&isAllowed=y
+    - section:
+        title: Attacks
+        items:
+            - article:
+                title: Dust Attacks
+                link: https://medium.com/chainrift-research/bitcoins-attack-vectors-dust-attacks-9040edee2986
+    - section:
+        title: Consensus approaches
+        items:
+            - article:
+                title: Overview
+                link: https://medium.com/scalar-capital/on-consensus-e47920cd8914
+            - section:
+                title: GHOST
+                items:
+                    - article:
+                        title: The GHOSTDAG protocol
+                        link: https://diyhpl.us/wiki/transcripts/scalingbitcoin/tokyo-2018/ghostdag/
+                    - paper:
+                        title: Secure High-Rate Transaction Processing in Bitcoin
+                        link: https://eprint.iacr.org/2013/881.pdf
+                    - spec:
+                        title: Modified GHOST Implementation in Ethereum
+                        link: https://github.com/ethereum/wiki/wiki/White-Paper#modified-ghost-implementation
+            - article:
+                title: Braiding
+                link: https://diyhpl.us/wiki/transcripts/scalingbitcoin/hong-kong/braiding-the-blockchain/
+            - article:
+                title: Byzantine Fault Tolerance
+                link: https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419
+            - article:
+                title: Bitcoin-NG
+                link: https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf
+            - section:
+                title: Proof of Stake
+                items:
+                    - article:
+                        title: Proof of Work & Proof of Stake
+                        link: https://medium.com/loom-network/understanding-blockchain-fundamentals-part-2-proof-of-work-proof-of-stake-b6ae907c7edb
+                    - article:
+                        title: Proof-of-Stake & the Wrong Engineering Mindset
+                        link: https://medium.com/@hugonguyen/proof-of-stake-the-wrong-engineering-mindset-15e641ab65a2
+            - section:
+                title: Sidechains
+                items:
+                    - paper:
+                        title: Enabling Blockchain Innovations with Pegged Sidechains
+                        link: https://blockstream.com/sidechains.pdf
+                    - article:
+                        title: Paul Storzc on Sidechains
+                        link: https://diyhpl.us/wiki/transcripts/scalingbitcoin/milan/sidechains/
+                    - paper:
+                        title: Proof-of-Work Sidechains
+                        link: http://diyhpl.us/~bryan/papers2/bitcoin/Proof-of-Work%20sidechains%20-%202018.pdf
+    - section:
+        title: Consensus Changes & Hard Forks
+        items:
+            - article:
+                title: A complete history of Bitcoin’s consensus forks
+                link: https://blog.bitmex.com/bitcoins-consensus-forks/
+            - section:
+                title: Extension blocks
+                items:
+                    - forum:
+                        title: 'Auxiliary block: Increasing max block size with softfork'
+                        link: https://bitcointalk.org/index.php?topic=283746.0
+                    - article:
+                        title: How Bitcoin Extension Blocks Are Backward Compatible — and How They’re Not
+                        link: https://bitcoinmagazine.com/articles/how-extension-blocks-are-backward-compatible-and-how-theyre-not
+            - article:
+                title: 'Hard forks: Potential dangers'
+                link: https://medium.com/@jimmysong/network-partitioning-321b7f159868
+            - section:
+                title: Replay Protection
+                items:
+                    - article:
+                        title: Replay Attacks Explained
+                        link: https://bitcointechtalk.com/replay-attacks-explained-e3d6d2ea0ab2
+                    - article:
+                        title: How to Protect Against Replay Attacks
+                        link: https://bitcointechtalk.com/how-to-protect-against-replay-attacks-7a00bd2fe52f
+                    - code:
+                        title: 2017_optin_replay code on btc1
+                        link: https://github.com/btc1/bitcoin/commit/a3c41256984bf11d95a560ae89c0fcbadfbe73dc
+            - text:
+                title: Wipeout Protection
+                description: TODO
+                completable: true
+            - website:
+                title: Light Nodes
+                link: https://en.bitcoin.it/wiki/Lightweight_node
+            - spec:
+                title: 'Spoonnet: another experimental hardfork'
+                link: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-February/013542.html
+    - section:
+        title: Cryptography
+        items:
+            - article:
+                title: The 3 Seminal Events In Cryptography
+                link: http://doctrina.org/The-3-Seminal-Events-In-Cryptography.html
+            - paper:
+                title: An Overview of Public Key Cryptography
+                link: https://ee.stanford.edu/~hellman/publications/31.pdf
+            - section:
+                title: Finite fields, Elliptic Curves, ECDSA, Schnorr
+                items:
+                    - video:
+                        title: Dev++ 02-01-EN | Finite fields, Elliptic Curves, ECDSA, Schnorr - John Newbery | Cryptography
+                        link: https://www.youtube.com/watch?v=DcGm_4-ig1o
+                    - article:
+                        title: Elliptic Curve Cryptography Explained
+                        link: https://fangpenlin.com/posts/2019/10/07/elliptic-curve-cryptography-explained/
+            - article:
+                title: Bitcoin, Chance and Randomness
+                link: https://medium.com/@hugonguyen/bitcoin-chance-and-randomness-ba49a6edf933
+            - article:
+                title: libsecp
+                link: https://scalingbitcoin.org/transcript/stanford2017/state-of-cryptography
+            - article:
+                title: State of cryptography for blockchains beyond ECDSA and sha256
+                link: https://diyhpl.us/wiki/transcripts/scalingbitcoin/stanford-2017/state-of-cryptography/
+            - paper:
+                title: On Bitcoin Security in the Presence of Broken Crypto Primitives
+                link: http://diyhpl.us/~bryan/papers2/bitcoin/On%20Bitcoin%20security%20in%20the%20presence%20of%20broken%20crypto%20primitives%20-%202016.pdf
+            - section:
+                title: Zero Knowledge proofs
+                description: TODO add more
+                items:
+                    - video:
+                        title: Introduction to Snarks
+                        link: https://www.youtube.com/watch?v=jr95o_k_SwI&feature=youtu.be
+            - section:
+                title: Bulletproofs
+                items:
+                    - article:
+                        title: How Bulletproofs Could Make Bitcoin Privacy Less Costly
+                        link: https://bitcoinmagazine.com/articles/how-bulletproofs-could-make-bitcoin-privacy-less-costly
+                    - article:
+                        title: 'Bulletproofs: Faster Rangeproofs and Much More'
+                        link: https://bitcoinmagazine.com/articles/how-bulletproofs-could-make-bitcoin-privacy-less-costly
+                    - article:
+                        title: Bulletpoints on bulletproofs
+                        link: https://joinmarket.me/blog/blog/bulletpoints-on-bulletproofs/
+                    - paper:
+                        title: From Zero Knowledge Proofs to Bulletproofs Paper
+                        link: https://joinmarket.me/blog/blog/from-zero-knowledge-proofs-to-bulletproofs-paper/
+                    - article:
+                        title: Building on Bulletproofs
+                        link: https://medium.com/@cathieyun/building-on-bulletproofs-2faa58af0ba8
+            - section:
+                title: Commitment schemes; pedersen commitments
+                items: 
+                    - article:
+                        title: Commitment schemes
+                        link: https://storage.googleapis.com/dev.adjoint.io/crypto.html#commitment-schemes
+                    - paper:
+                        title: Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing
+                        link: https://www.cs.cornell.edu/courses/cs754/2001fa/129.PDF
+            - section:
+                title: Schnorr
+                items:
+                    - video:
+                        title: Introduction to Schnorr Signatures with Elichai Turkel
+                        link: https://www.youtube.com/watch?v=XKatSGCZ-gE&feature=youtu.be
+                    - paper:
+                        title: Simple Schnorr Multi-Signatures with Applications to Bitcoin
+                        link: https://eprint.iacr.org/2018/068.pdf
+                    - article:
+                        title: Liars, cheats, scammers and the Schnorr signature
+                        link: https://joinmarket.me/blog/blog/liars-cheats-scammers-and-the-schnorr-signature/
+            - article:
+                title: 'Diffie-Hellman Key Exchange: A Non-mathematician’s explanation'
+                link: https://community.cisco.com/legacyfs/online/legacy/3/5/6/26653-dh.PDF
+            - article:
+                title: Ring Signatures
+                link: https://joinmarket.me/blog/blog/ring-signatures/
+            - article:
+                title: How RSA Works With Examples
+                link: http://doctrina.org/How-RSA-Works-With-Examples.html
+    - section:
+        title: Transactions
+        items:
+            - article:
+                title: Understanding a Raw Bitcoin Transaction
+                link: https://medium.com/@marchtodeath/understanding-a-raw-bitcoin-transaction-531193b7e147
+            - tutorial:
+                title: 'Bitcoins the hard way: Using the raw Bitcoin protocol'
+                link: http://www.righto.com/2014/02/bitcoins-hard-way-using-raw-bitcoin.html
+            - article:
+                title: Working with transactions
+                link: https://bitcoinj.github.io/working-with-transactions
+            - code:
+                title: Transaction format – IsMine function in Bitcoin Core
+                link: https://github.com/bitcoin/bitcoin/blob/624bee96597c1d59018e58131b8285c0b332700d/src/script/ismine.cpp#L43
+            - section:
+                title: Script
+                items:
+                    - book:
+                        title: Bitcoin Developer Reference
+                        link: https://www.lopp.net/pdf/Bitcoin_Developer_Reference.pdf#page=19
+                        description: Section 4.2
+                    - video:
+                        title: 'Advanced Bitcoin Scripting: Transactions & Multisig'
+                        link: https://www.youtube.com/watch?v=8FeAXjkmDcQ
+            - section:
+                title: Signing transactions
+                items:
+                    - forum:
+                        title: Why the signature is always 65 (1+32+32) bytes long?
+                        link: https://bitcoin.stackexchange.com/questions/12554/why-the-signature-is-always-65-13232-bytes-long/12556#12556
+            - section:
+                title: Standardness
+                items:
+                    - book:
+                        title: Bitcoin Developer Reference
+                        link: https://www.lopp.net/pdf/Bitcoin_Developer_Reference.pdf#page=16
+                        description: Section 3.3
+                    - article:
+                        title: The Bitcoin Non-standard
+                        link: https://medium.com/summa-technology/the-bitcoin-non-standard-6103330af98c
+                    - code:
+                        title: Definition of Standardness
+                        link: https://github.com/libbitcoin/libbitcoin-server/wiki/Standardness
+            - section:
+                title: 0-conf transactions
+                items:
+                    - article:
+                        title: Support for zero-confirmation transactions at Bitcoin ATM
+                        link: https://coinatmradar.com/blog/support-zero-confirmation-transactions-at-bitcoin-atm/
+                    - spec:
+                        title: Solving the 0-conf problem using forfeits
+                        link: https://gist.github.com/awemany/619a5722d129dec25abf5de211d971bd
+            - section:
+                title: Partially Signed Bitcoin Transactions
+                items:
+                    - video:
+                        title: 'Andrew Chow: Partially Signed Bitcoin Transactions'
+                        link: https://www.youtube.com/watch?v=H6xZSRDXUiU
+                    - spec:
+                        title: BIP 174
+                        link: https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki
+                    - article:
+                        title: PSBT (BIP 174) - Partially Signed Bitcoin Transactions
+                        link: https://bitcointechweekly.com/front/bip-174-psbt-partially-signed-bitcoin-transactions/
+                    - tutorial:
+                        title: PSBT Howto for Bitcoin Core
+                        link: https://github.com/bitcoin/bitcoin/blob/master/doc/psbt.md
+                    - forum:
+                        title: Partially Signed Bitcoin Transaction (PSBT) format
+                        link: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-August/014843.html
+            - forum:
+                title: SIGHASH_NOINPUT
+                link: https://bitcoin-development.narkive.com/PhL7HxZZ/bip-sighash-noinput
+            - spec:
+                title: Compacted Transactions
+                link: https://people.xiph.org/~greg/compacted_txn.txt
+            - section:
+                title: Mempool
+                items:
+                    - article:
+                        title: How the Mempool Works
+                        link: https://blog.kaiko.com/an-in-depth-guide-into-how-the-mempool-works-c758b781c608
+                    - article:
+                        title: Transaction Pools
+                        link: https://github.com/bitcoinbook/bitcoinbook/blob/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/ch08.asciidoc#transaction-pools
+                        description: This is a snippet from the `bitcoinbook` project
+                    - video:
+                        title: Bitcoin p2p network
+                        link: https://www.youtube.com/watch?v=eVerdR2hOMw&feature=youtu.be&t=1918
+                        description: 'Starts at 31:58'
+    - section:
+        title: Blocks
+        items:
+            - section:
+                title: Merkle Trees
+                items:
+                    - book:
+                        title: Bitcoin Developer Reference
+                        link: https://www.lopp.net/pdf/Bitcoin_Developer_Reference.pdf#page=5
+                        description: Section 2.2
+                    - paper:
+                        title: Weaknesses in Bitcoin’s Merkle Root Construction
+                        link: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/attachments/20190225/a27d8837/attachment-0001.pdf
+            - article:
+                title: Data structures in validation
+                link: https://diyhpl.us/wiki/transcripts/scalingbitcoin/validation-costs/
+            - video:
+                title: Handling Re-orgs & Forks
+                link: https://www.youtube.com/watch?time_continue=839&v=wtTQ_1WyUoY
+                description: Starts at 13:59
+            - section:
+                title: Pruning
+                items:
+                    - spec:
+                        title: Block file pruning
+                        link: https://bitcoin.org/en/release/v0.11.0#block-file-pruning
+                    - code:
+                        title: 'Add autoprune functionality PR #5863'
+                        link: https://github.com/bitcoin/bitcoin/pull/5863
+    - section:
+        title: SegWit
+        items:
+            - section:
+                title: Introduction
+                items:
+                    - article:
+                        title: Understanding Segregated Witness
+                        link: https://segwit.org/understanding-segregated-witness-905cc712c692
+                    - article:
+                        title: Segregated Witness
+                        link: https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch07.asciidoc#segregated-witness
+                    - video:
+                        title: 'Bitcoin Protocol Design: Segregated Witness Revisited'
+                        link: https://www.youtube.com/watch?v=AjBpIkfB-ac
+                    - video:
+                        title: SegWit
+                        link: https://www.youtube.com/watch?v=Txfy2mFe16A
+                    - article:
+                        title: Segregated Witness Benefits
+                        link: https://bitcoincore.org/en/2016/01/26/segwit-benefits/
+                    - article:
+                        title: Segregated Witness Costs and Risks
+                        link: https://bitcoincore.org/en/2016/10/28/segwit-costs/
+                    - article:
+                        title: 'The Long Road To SegWit: How Bitcoin’s Biggest Protocol Upgrade Became Reality'
+                        link: https://bitcoinmagazine.com/articles/long-road-segwit-how-bitcoins-biggest-protocol-upgrade-became-reality
+            - article:
+                title: SegWit and scalabilty
+                link: https://diyhpl.us/wiki/transcripts/scalingbitcoin/hong-kong/segregated-witness-and-its-impact-on-scalability/
+            - section:
+                title: Tx malleability
+                items:
+                    - article:
+                        title: Transaction Malleability Explained
+                        link: https://bitcointechtalk.com/transaction-malleability-explained-b7e240236fc7
+                    - video:
+                        title: 'SF Bitcoin Devs Seminar: Transaction Malleability: Threats and Solutions'
+                        link: https://www.youtube.com/watch?v=jyDE-aFqJTs
+                    - article:
+                        title: The Who, What, Why And How Of The Ongoing Transaction Malleability Attack
+                        link: https://bitcoinmagazine.com/articles/the-who-what-why-and-how-of-the-ongoing-transaction-malleability-attack-1444253640
+                    - spec:
+                        title: Dealing with Malleability
+                        link: https://github.com/bitcoin/bips/blob/master/bip-0062.mediawiki
+                    - paper:
+                        title: Bitcoin Transaction Malleability and MtGox
+                        link: https://arxiv.org/pdf/1403.6676.pdf
+            - article:
+                title: Understanding Segwit Block Size
+                link: https://medium.com/@jimmysong/understanding-segwit-block-size-fd901b87c9d4
+            - article:
+                title: New address type for segwit addresses
+                link: https://diyhpl.us/wiki/transcripts/sf-bitcoin-meetup/2017-03-29-new-address-type-for-segwit-addresses/
+            - article:
+                title: Segregated Witness Wallet Development Guide
+                link: https://bitcoincore.org/en/segwit_wallet_dev/
+    - section:
+        title: Wallets
+        items:
+            - section:
+                title: HD Wallet
+                items:
+                    - spec:
+                        title: BIP 32 - Hierarchical Deterministic Wallet
+                        link: https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki
+                    - spec:
+                        title: BIP 44 - Multi-Account Hierarchy for Deterministic Wallets
+                        link: https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki
+                    - spec:
+                        title: 'HD Wallets Explained: From High Level to Nuts and Bolts'
+                        link: https://medium.com/bitcraft/hd-wallets-explained-from-high-level-to-nuts-and-bolts-9a41545f5b0
+            - forum:
+                title: Wallet BerkeleyDB key value store, data file, environment, logs, flushing
+                link: https://bitcoin.stackexchange.com/questions/51435/migration-from-berkeley-db-to-leveldb
+            - article:
+                title: 'Wallets and Accounts and Keys, Oh My!'
+                link: https://bcoin.io/guides/wallets.html
+            - section:
+                title: 'Wallet key management'
+                description: TODO add more on key and address metadata
+                items:
+                    - forum:
+                        title: Understanding keypool in Bitcoin Core
+                        link: https://bitcointalk.org/index.php?topic=2940114.msg30228579#msg30228579
+                    - article:
+                        title: Understanding the Gap Limit
+                        link: https://blog.blockonomics.co/bitcoin-what-is-this-gap-limit-4f098e52d7e1
+            - article:
+                title: How to rescan / reindex wallet?
+                link: https://coinguides.org/rescan-reindex-wallet/
+            - article:
+                title: Segregated Witness Wallet Development Guide
+                link: https://bitcoincore.org/en/segwit_wallet_dev/
+            - section:
+                title: Fees
+                items:
+                    - article:
+                        title: The Fee Market Explained
+                        link: https://medium.com/@jimmysong/the-fee-market-explained-76b294947b42
+                    - article:
+                        title: How wallets can handle transaction fees
+                        link: https://medium.com/@bramcohen/how-wallets-can-handle-transaction-fees-ff5d020d14fb
+            - section:
+                title: Replace by Fee
+                items:
+                    - article:
+                        title: BIP 125 - Opt-in Full Replace-by-Fee Signaling
+                        link: https://github.com/bitcoin/bips/blob/master/bip-0125.mediawiki
+                    - article:
+                        title: Support for zero-confirmation transactions at Bitcoin ATM
+                        link: https://coinatmradar.com/blog/support-zero-confirmation-transactions-at-bitcoin-atm/
+            - section:
+                title: Coin selection
+                items:
+                    - video:
+                        title: Unspent Management and Coin Selection
+                        link: https://www.youtube.com/watch?v=hrlNN3BSB6w
+                    - video:
+                        title: Coin Selection - Karl Johan Alm
+                        link: https://www.youtube.com/watch?v=MT0gpRG2elY
+                    - article:
+                        title: Coin Selection (Scaling 2016)
+                        link: https://scalingbitcoin.org/transcript/milan2016/coin-selection
+                    - paper:
+                        title: An Evaluation of Coin Selection Strategies
+                        link: http://murch.one/wp-content/uploads/2016/11/erhardt2016coinselection.pdf
+            - video:
+                title: Using your hardware wallet with Bitcoin Core
+                link: https://vimeo.com/316634495
+    - section:
+        title: Scripts and Contracts
+        items:
+            - video:
+                title: Scripts - general & simple
+                link: https://www.youtube.com/watch?v=np-SCwkqVy4
+            - video:
+                title: P2PKH, P2WPKH, P2SH, P2WSH
+                link: https://www.youtube.com/watch?time_continue=8&v=nrYOMjVmqi8
+            - video:
+                title: Bitcoin Multisig and P2SH Transactions with Andreas Antonopoulos
+                link: https://www.youtube.com/watch?v=K-ccC9YZ8UI
+            - section:
+                title: Script Descriptors
+                items:
+                    - article:
+                        title: Script descriptors
+                        link: http://diyhpl.us/wiki/transcripts/bitcoin-core-dev-tech/2018-10-08-script-descriptors/
+                    - spec:
+                        title: Support for Output Descriptors in Bitcoin Core
+                        link: https://github.com/bitcoin/bitcoin/blob/master/doc/descriptors.md
+            - article:
+                title: Improving Privacy Using Pay-to-EndPoint (P2EP)
+                link: https://blockstream.com/2018/08/08/en-improving-privacy-using-pay-to-endpoint/
+            - section:
+                title: Smart Contracts on a Dumb Chain
+                items:
+                    - article:
+                        title: MimbleWimble
+                        link: https://medium.com/scalar-capital/behind-mimblewimble-cd9da78a00e9
+                    - section:
+                        title: Scriptless Scripts
+                        items:
+                            - code:
+                                title: ElementsProject/scriptless-Scripts
+                                link: https://github.com/ElementsProject/scriptless-scripts/tree/master/md
+                            - article:
+                                title: Scriptless Scripts - A different kind of smart contract
+                                link: https://medium.com/scalar-capital/scriptless-scripts-25e18fd52ede
+                            - video:
+                                title: Scriptless scripts, adaptor signatures and their applications
+                                link: https://www.youtube.com/watch?time_continue=2&v=PDzGP621pEs
+            - section:
+                title: Payment Channels
+                items:
+                    - article:
+                        title: Understanding Payment Channels
+                        link: https://blog.chainside.net/understanding-payment-channels-4ab018be79d4
+                    - video:
+                        title: 'Bitcoin Protocol Design: Payment Channels Revisited'
+                        link: https://www.youtube.com/watch?v=4SdBa8ZOfqg
+                    - article:
+                        title: Bitcoin script v2.0
+                        link: https://diyhpl.us/wiki/transcripts/scalingbitcoin/stanford-2017/bitcoin-script-v2.0-and-strengthened-payment-channels/
+            - section:
+                title: MAST
+                items:
+                    - article:
+                        title: What is a Bitcoin Merklized Abstract Syntax Tree (MAST)?
+                        link: https://bitcointechtalk.com/what-is-a-bitcoin-merklized-abstract-syntax-tree-mast-33fdf2da5e2f
+                    - article:
+                        title: Merkleized abstract syntax trees (MAST)
+                        link: http://diyhpl.us/wiki/transcripts/bitcoin-core-dev-tech/2017-09-07-merkleized-abstract-syntax-trees/
+                    - article:
+                        title: MAST Discussion
+                        link: https://diyhpl.us/wiki/transcripts/bitcoin-core-dev-tech/2018-03-06-merkleized-abstract-syntax-trees-mast/
+            - section:
+                title: ZK SNARKS
+                items:
+                    - article:
+                        title: Scaling Bitcoin – Snarks Panel
+                        link: https://diyhpl.us/wiki/transcripts/scalingbitcoin/snarks/
+                    - article:
+                        title: Introduction to SNARKs
+                        link: https://www.youtube.com/watch?v=jr95o_k_SwIs
+                    - article:
+                        title: 'STARKs, Part I: Proofs with Polynomials'
+                        link: https://vitalik.ca/general/2017/11/09/starks_part_1.html
+            - section:
+                title: ZK STARKs
+                items:
+                    - paper:
+                        title: Scalable, transparent, and post-quantum secure computational integrity
+                        link: https://eprint.iacr.org/2018/046.pdf
+                    - article:
+                        title: "STARKs, Part II: Thank Goodness It's FRI-day"
+                        link: https://vitalik.ca/general/2017/11/22/starks_part_2.html
+                    - article:
+                        title: 'STARKs, Part 3: Into the Weeds'
+                        link: https://vitalik.ca/general/2018/07/21/starks_part_3.html
+                    - article:
+                        title: ZK-STARKs — Create Verifiable Trust, even against Quantum Computers
+                        link: https://medium.com/coinmonks/zk-starks-create-verifiable-trust-even-against-quantum-computers-dd9c6a2bb13d
+            - section:
+                title: ZK STARKs
+                items:
+                    - video:
+                        title: 'Tadge Dryja: Discreet Log Contracts'
+                        link: https://www.youtube.com/watch?v=FU-rA5dkTHI&feature=emb_logo
+                    - article:
+                        title: 'Discreet Log Contracts: invisible smart contracts on the Bitcoin blockchain'
+                        link: https://medium.com/@gertjaap/discreet-log-contracts-invisible-smart-contracts-on-the-bitcoin-blockchain-cc8afbdbf0db
+                    - article:
+                        title: 'STARKs, Part 3: Into the Weeds'
+                        link: https://vitalik.ca/general/2018/07/21/starks_part_3.html
+                    - article:
+                        title: ZK-STARKs — Create Verifiable Trust, even against Quantum Computers
+                        link: https://medium.com/coinmonks/zk-starks-create-verifiable-trust-even-against-quantum-computers-dd9c6a2bb13d
+            - section:
+                title: Miniscript
+                items:
+                    - article:
+                        title: Stanford Blockchain Conference 2019 - Miniscript
+                        link: http://diyhpl.us/wiki/transcripts/stanford-blockchain-conference/2019/miniscript/
+                    - spec:
+                        title: Policy to Miniscript compiler
+                        link: http://bitcoin.sipa.be/miniscript/
+            - spec:
+                title: The State of Script
+                link: https://diyhpl.us/wiki/transcripts/scalingbitcoin/tokyo-2018/bitcoin-script/
+    - section:
+        title: Fungibility & Scalability
+        items:
+            - video:
+                title: The current state of Bitcoin fungibility (2019)
+                link: https://vimeo.com/316635787
+            - section:
+                title: On Scaling Decentralized Blockchains
+                items:
+                    - website:
+                        title: The Fundamental Tradeoff
+                        link: https://gist.github.com/chris-belcher/a8155df5051bb3e3aa96
+                    - paper:
+                        title: On Scaling Decentralized Blockchains (A Position Paper)
+                        link: http://diyhpl.us/~bryan/papers2/bitcoin/On%20scaling%20decentralized%20blockchains%20-%20A%20position%20paper.pdf

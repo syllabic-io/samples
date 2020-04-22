@@ -63,6 +63,12 @@ def render_item(item, header, indent):
     elif typ == "spec":
         markdown += "- [ ] 📑 [**{}**]({})\n\n".format(metadata["title"], metadata["link"])
     
+    elif typ == "code":
+        markdown += "- [ ] 💻 [**{}**]({})\n\n".format(metadata["title"], metadata["link"])
+    
+    elif typ == "tutorial":
+        markdown += "- [ ] 📋 [**{}**]({})\n\n".format(metadata["title"], metadata["link"])
+    
 
     elif typ == 'film':
         if "title" not in metadata:

@@ -80,3 +80,11 @@ tweet:
     title: optional
     description: optional
 
+code:
+    link: required
+    title: required
+    description: optional
+    
+tutorial:
+    title: required
+    link: required
