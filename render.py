@@ -68,6 +68,8 @@ def render_item(item, header, indent):
     
     elif typ == "tutorial":
         markdown += "- [ ] 📋 [**{}**]({})\n\n".format(metadata["title"], metadata["link"])
+    elif typ == "course":
+        markdown += "- [ ] 🎓 [**{}**]({})\n\n".format(metadata["title"], metadata["link"])
     
 
     elif typ == 'film':

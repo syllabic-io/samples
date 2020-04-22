@@ -88,3 +88,7 @@ code:
 tutorial:
     title: required
     link: required
+
+course:
+    title: required
+    link: required
