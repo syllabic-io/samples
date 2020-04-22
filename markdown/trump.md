@@ -1,4 +1,4 @@
-# Bitcoin Protocol Development Curriculum 
+# Trump Syllabus 2.0 
 ## **N. D. B. Connolly and Keisha N. Blain | [(Source)](https://www.publicbooks.org/trump-syllabus-2-0/)**
 ---
 
