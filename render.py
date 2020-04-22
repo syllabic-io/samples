@@ -89,13 +89,13 @@ def render_item(item, header, indent):
                 markdown += " " * (4 * indent)
                 markdown += "    {} \n\n".format(metadata["description"])
             else:     
-                markdown += "\n\n- [ ] {} \n\n".format(metadata["description"])
+                markdown += "- [ ] {} \n\n".format(metadata["description"])
         else:
             if "title" in metadata:
                 markdown += "**{}**\n\n".format(metadata["title"])
                 markdown += " " * (4 * indent)
                 markdown += "{} \n\n".format(metadata["description"])
-            else:     
+            else:
                 markdown += "{} \n\n".format(metadata["description"])
 
     else:

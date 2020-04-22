@@ -53,13 +53,9 @@ The weekly readings are organized by themes captured by Trump’s own statements
 
     - ### Assignments
 
-        
+        - [ ] In 1-2 pages, draw connections between Donald Trump and Ben Tillman, paying close attention to similarities in their strategies of recruitment; political and economic messages; rhetorical strategies; and intended audience. [Sherie Randolph] 
 
-- [ ] In 1-2 pages, draw connections between Donald Trump and Ben Tillman, paying close attention to similarities in their strategies of recruitment; political and economic messages; rhetorical strategies; and intended audience. [Sherie Randolph] 
-
-        
-
-- [ ] Read a speech from Trump, Father Coughlin, and Dennis Kearny (anti-Chinese labor activist 1870s). In 2-3 pages, offer an analysis of the speeches, noting similarities and/or differences. 
+        - [ ] Read a speech from Trump, Father Coughlin, and Dennis Kearny (anti-Chinese labor activist 1870s). In 2-3 pages, offer an analysis of the speeches, noting similarities and/or differences. 
 
     ![Photograph by Evan Guest / Flickr](https://www.publicbooks.org/wp-content/uploads/2016/06/870e94fa-7733-4fd3-83c8-b5d6cace4b97.jpg)
  
@@ -74,27 +70,19 @@ The weekly readings are organized by themes captured by Trump’s own statements
 
         - [ ] 📖 [**Black Reconstruction in America, 1860–1880**](https://www.amazon.com/Black-Reconstruction-America-1860-1880-Paperback/dp/B001T65LIK/)
 
-            
+            - [ ] “The White Worker” chapter 
 
-- [ ] “The White Worker” chapter 
-
-            
-
-- [ ] “The Counter-Revolution of Property” chapter 
+            - [ ] “The Counter-Revolution of Property” chapter 
 
         - [ ] 📖 [**American Slavery, American Freedom: The Ordeal of Colonial Virginia**](https://www.amazon.com/American-Slavery-Freedom-Edmund-Morgan/dp/039332494X/)
 
-            
-
-- [ ] “Toward Racism” chapter 
+            - [ ] “Toward Racism” chapter 
 
         - [ ] 📖 [**Behind the Mask of Chivalry: The Making of the Second Ku Klux Klan**](None)
 
         - [ ] 📖 [**The House that Race Built: Black Americans, US Terrain**](https://www.amazon.com/Behind-Mask-Chivalry-Making-Second-dp-0195098366/dp/0195098366/)
 
-            
-
-- [ ] “Color Blindness, History, and the Law” chapter 
+            - [ ] “Color Blindness, History, and the Law” chapter 
 
         - [ ] 📖 [**White Supremacy and Racism in the Post-Civil Rights Era**](https://www.amazon.com/White-Supremacy-Racism-Post-Civil-Rights/dp/1588260321/)
 
@@ -116,9 +104,7 @@ The weekly readings are organized by themes captured by Trump’s own statements
 
         - [ ] 📖 [**Sociological Theories: Race and Colonialism**](https://www.powells.com/book/sociological-theories-race-colonialism-9789231016356?p_isbn&partnerid=37407)
 
-            
-
-- [ ] “Race, Articulation and Societies Structured in Dominance” chapter 
+            - [ ] “Race, Articulation and Societies Structured in Dominance” chapter 
 
         - [ ] 📖 [**How Capitalism Underdeveloped Black America: Problems in Race, Political Economy, and Society**](https://www.amazon.com/How-Capitalism-Underdeveloped-Black-America/dp/160846511X/)
 
@@ -134,9 +120,7 @@ The weekly readings are organized by themes captured by Trump’s own statements
 
         - [ ] 📖 [**The Fire Next Time**](https://www.amazon.com/Fire-Next-Time-James-Baldwin/dp/067974472X/)
 
-            
-
-- [ ] My Dungeon Shook: Letter to My Nephew on the One Hundredth Anniversary of the Emancipation” section 
+            - [ ] My Dungeon Shook: Letter to My Nephew on the One Hundredth Anniversary of the Emancipation” section 
 
         - [ ] 📖 [**The Eyes on the Prize Civil Rights Reader: Documents, Speeches, and Firsthand Accounts from the Black Freedom Struggle, 1954–1990**](https://www.amazon.com/Eyes-Prize-Civil-Rights-Reader/dp/0140154035/)
 
@@ -144,9 +128,7 @@ The weekly readings are organized by themes captured by Trump’s own statements
 
     - ### Assignments
 
-        
-
-- [ ] Read SCOTUS decisions in United States v. Wong Kim Ark (1898) and United States v. Bhagat Singh Thind (1923) and compare to Donald Trump’s attacks on Obama’s citizenship. [Julie Greene]
+        - [ ] Read SCOTUS decisions in United States v. Wong Kim Ark (1898) and United States v. Bhagat Singh Thind (1923) and compare to Donald Trump’s attacks on Obama’s citizenship. [Julie Greene]
  
 
             - [ ] 📜 [**United States v. Wong Kim Ark (1898)**](https://www.law.cornell.edu/supremecourt/text/169/649)
