@@ -224,6 +224,7 @@ items:
                     - text:
                         description: >
                             Search historical primary sources for dog whistles (political messages employing coded language). Draw connections between these dog whistles to Trump’s non-coded race baiting. [Elizabeth Cohen]
+                        completable: true
     - section:
         title: Immigration Policies and the Rise of Islamophobia
         description: >
