@@ -1,7 +1,5 @@
 # Syllabic
 
----
-
 | Topic  | Curator |
 | ------------- | ------------- |
 | [Bitcoin Core Development](markdown/bitcoin-syllabus.md) | [Chaincode Labs](https://chaincode.com/)  |
