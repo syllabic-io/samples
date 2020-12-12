@@ -1,4 +1,6 @@
-# Syllabii
+# Syllabic
+
+---
 
 | Topic  | Curator |
 | ------------- | ------------- |
